@@ -1,0 +1,32 @@
+.places__link {
+  display: block;
+  width: 484px;
+  color: white;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 0 0 48px 0;
+}
+
+.places__link:hover {
+  opacity: .8;
+}
+
+@media screen and (max-width: 1024px) { 
+  .places__link {
+    width: 456px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places__link {
+    width: 348px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places__link {
+    width: 288px;
+    margin-bottom: 30px;
+    margin-left: 4px;
+  }
+}

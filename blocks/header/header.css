@@ -1,0 +1,29 @@
+@import url(./__language-container/header__language-container.css);
+@import url(./__language-links/header__language-links.css);
+
+.header {
+  width: 984px;
+  height: 44px;
+  margin: 0 auto 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    width: 928px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    width: 720px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    width: 288px;
+    height: 36px;
+  }
+}
