@@ -6,18 +6,20 @@
   background-size: cover;
   background-repeat: no-repeat;
   width: 92.5vw;
-  height: calc(100vw * .625);
+  min-height: calc(100vw * .625);
   margin: 92px auto;
   display: flex;
   flex-direction: column;
   color: white;
   position: relative;
+  align-items: center;
+  justify-content: center;
 }
 
 @media screen and (max-width: 1024px) {
   .cover {
     width: calc(100vw - 4px);
-    height: calc(100vw * .625);
+    min-height: calc(100vw * .625);
   }
 }
 
