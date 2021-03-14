@@ -6,7 +6,7 @@
 @import url(./__paragraph/__paragraph.css);
 
 .places {
-  width: 984px;
+  width: 76.8vw;
   height: fit-content;
   margin: 80px auto 0px;
   display: flex;
@@ -15,18 +15,18 @@
 
 @media screen and (max-width: 1024px) {
   .places {
-    width: 928px;
+    width: 90.6vw;
   }
 }
 
 @media screen and (max-width: 768px) {
   .places {
-    width: 720px;
+    width: 93.7vw;
   }
 }
 
 @media screen and (max-width: 320px) {
   .places {
-    width: 320px;
+    width: calc(100vw - 4px);
   }
 }

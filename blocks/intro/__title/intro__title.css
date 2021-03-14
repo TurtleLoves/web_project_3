@@ -1,9 +1,21 @@
 .intro__title {
-  width: 690px;
+  width: 53.9vw;
   font-weight: 900;
   font-size: 54px;
   line-height: 58px;
   margin-bottom: 40px;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro__title {
+    width: 67.3vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro__title {
+    width: 93.7vw;
+  }
 }
 
 @media screen and (max-width: 320px) {

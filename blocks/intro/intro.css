@@ -5,19 +5,19 @@
 @import url(./__list-span-accent/__list-span-accent.css);
 
 .intro {
-  width: 984px;
+  width: 76.8vw;
   margin: 92px auto;
 }
 
 @media screen and (max-width: 1024px) {
   .intro {
-    width: 928px;
+    width: 90.6vw;
   }
 }
 
 @media screen and (max-width: 768px) {
   .intro {
-    width: 94vw;
+    width: 93.7vw;
   }
 }
 

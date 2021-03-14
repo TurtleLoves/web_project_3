@@ -1,12 +1,12 @@
 .footer__copyright {
-  margin: 0 0 0 805px;
+  margin: 0;
   font-size: 14px;
   line-height: 16px;
 }
 
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
   .footer__copyright {
-    margin: 0 0 0 549px;
+    /* margin: 0 0 0 549px; 
   }
 }
 
@@ -20,4 +20,4 @@
   .footer__copyright {
     margin: 16px 0 0 0;
   }
-}
+} */ 

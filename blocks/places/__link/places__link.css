@@ -1,6 +1,6 @@
 .places__link {
   display: block;
-  width: 484px;
+  width: 37.8vw;
   color: white;
   font-size: 18px;
   line-height: 22px;
@@ -13,19 +13,19 @@
 
 @media screen and (max-width: 1024px) { 
   .places__link {
-    width: 456px;
+    width: 44.5vw;
   }
 }
 
 @media screen and (max-width: 768px) {
   .places__link {
-    width: 348px;
+    width: 45.8vw;
   }
 }
 
 @media screen and (max-width: 320px) {
   .places__link {
-    width: 288px;
+    width: 90vw;
     margin-bottom: 30px;
     margin-left: 4px;
   }

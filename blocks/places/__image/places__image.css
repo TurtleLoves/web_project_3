@@ -1,29 +1,29 @@
 .places__image {
-  width: 460px;
-  height: 460px;
-  margin-right: 40px;
+  width: 35.9vw;
+  height: 35.9vw;
+  margin-right: 3.1vw;
 }
 
 @media screen and (max-width: 1024px) {
   .places__image {
-    width: 440px;
-    height: 440px;
-    margin-right: 32px;
+    width: 42.9vw;
+    height: 42.9vw;
+    margin-right: 3.1vw;
   }
 }
 
 @media screen and (max-width: 768px) {
   .places__image {
-    width: 340px;
-    height: 340px;
-    margin-right: 28px;
+    width: 44.2vw;
+    height: 44.2vw;
+    margin-right: 3.6vw;
   }
 }
 
 @media screen and (max-width: 320px) {
   .places__image {
-    width: 320px;
-    height: 320px;
+    width: calc(100vw - 4px);
+    height: calc(100vw - 4px);
     margin: 0 auto 32px;
   }
 }

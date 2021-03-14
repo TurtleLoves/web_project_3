@@ -1,8 +1,20 @@
 .intro__text {
-  width: 690px;
+  width: 53.9vw;
   font-size: 16px;
   line-height: 26px;
   margin-bottom: 32px;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro__text {
+    width: 67.3vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro__text {
+    width: 93.7vw;
+  }
 }
 
 @media screen and (max-width: 320px) {

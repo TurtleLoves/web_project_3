@@ -2,27 +2,28 @@
 @import url(./__links/footer__links.css);
 
 .footer {
-  width: 1184px;
+  width: 92.5vw;
   display: flex;
+  flex-wrap: wrap;
   margin: 92px auto 24px;
+  justify-content: space-between;
 }
 
 @media screen and (max-width: 1024px) {
   .footer {
-    width: 928px;
+    width: 90.6vw;
   }
 }
 
 @media screen and (max-width: 768px) {
   .footer {
-    width: 720px;
+    width: 93.7vw;
   }
 }
 
 @media screen and (max-width: 320px) {
   .footer {
-    width: 288px;
-    display: flex;
+    width: 90vw;
     margin: 0 auto 24px;
     flex-direction: column;
   }
