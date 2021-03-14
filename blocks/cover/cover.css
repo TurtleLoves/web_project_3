@@ -6,7 +6,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   width: 92.5vw;
-  min-height: calc(100vw * .625);
+  min-height: calc(92.5vw * .625);
   margin: 92px auto;
   display: flex;
   flex-direction: column;
