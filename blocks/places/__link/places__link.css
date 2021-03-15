@@ -1,6 +1,6 @@
 .places__link {
   display: block;
-  width: 37.8vw;
+  width: 484px;
   color: white;
   font-size: 18px;
   line-height: 22px;
@@ -9,6 +9,12 @@
 
 .places__link:hover {
   opacity: .8;
+}
+
+@media screen and (max-width: 1280px) { 
+  .places__link {
+    width: 37.8vw;
+  }
 }
 
 @media screen and (max-width: 1024px) { 

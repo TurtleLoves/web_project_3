@@ -1,6 +1,13 @@
 .photo-grid__item {
+  width: 284px;
+  height: 213px;
+}
+
+@media screen and (max-width: 1280px) {
+  .photo-grid__item {
   width: 22.1vw;
   height: calc(22.1vw * .75);
+  }
 }
 
 @media screen and (max-width: 1024px) {

@@ -6,11 +6,17 @@
 @import url(./__paragraph/__paragraph.css);
 
 .places {
-  width: 76.8vw;
+  width: 984px;
   height: fit-content;
   margin: 80px auto 0px;
   display: flex;
   flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1280px) {
+  .places {
+    width: 76.8vw;
+  }
 }
 
 @media screen and (max-width: 1024px) {

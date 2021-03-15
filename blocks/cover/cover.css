@@ -5,8 +5,8 @@
   background-image: url(../../images/cover-route-66.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  width: 92.5vw;
-  min-height: calc(92.5vw * .625);
+  width: 1184px;
+  min-height: 740px;
   margin: 92px auto;
   display: flex;
   flex-direction: column;
@@ -16,9 +16,16 @@
   justify-content: center;
 }
 
+@media screen and (max-width: 1280px) {
+  .cover {
+  width: 92.5vw;
+  min-height: calc(92.5vw * .625);
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .cover {
-    width: calc(100vw - 4px);
+    width: calc(100vw);
     min-height: calc(100vw * .625);
   }
 }
