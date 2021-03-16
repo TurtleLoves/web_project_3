@@ -21,7 +21,19 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
+  .lead {
+    width: 100vw;
+  }
+}
+
+/* @media screen and (max-width: 768px) {
+  .lead {
+    width: 100vw;
+  }
+} */
+
+/* @media screen and (max-width: 600px) {
   .lead {
     width: 100vw;
   }
@@ -31,4 +43,4 @@
   .lead {
     width: 100vw;
   }
-}
+} */

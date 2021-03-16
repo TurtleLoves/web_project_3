@@ -18,12 +18,19 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
   .lead__image {
     width: calc(100vw);
     height: calc(100vw * .625);
   }
 }
+
+/* @media screen and (max-width: 768px) {
+  .lead__image {
+    width: calc(100vw);
+    height: calc(100vw * .625);
+  }
+} */
 
 /* .lead__image {
   width: 76.8vw;

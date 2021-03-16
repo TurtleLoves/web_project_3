@@ -17,14 +17,26 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
   .intro__text {
     width: 93.7vw;
   }
 }
 
-@media screen and (max-width: 320px) {
+/* @media screen and (max-width: 768px) {
+  .intro__text {
+    width: 93.7vw;
+  }
+} */
+
+@media screen and (max-width: 600px) {
   .intro__text {
     width: 90vw;
   }
 }
+
+/* @media screen and (max-width: 320px) {
+  .intro__text {
+    width: 90vw;
+  }
+} */

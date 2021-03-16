@@ -17,16 +17,30 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
   .photo-grid__item {
     width: 45.8vw;
     height: calc(45.8vw * .75);
   }
 }
 
-@media screen and (max-width: 320px) {
+/* @media screen and (max-width: 768px) {
+  .photo-grid__item {
+    width: 45.8vw;
+    height: calc(45.8vw * .75);
+  }
+} */
+
+@media screen and (max-width: 600px) {
   .photo-grid__item {
     width: 90vw;
     height: calc(90vw * .75);
   }
 }
+
+/* @media screen and (max-width: 320px) {
+  .photo-grid__item {
+    width: 90vw;
+    height: calc(90vw * .75);
+  }
+} */

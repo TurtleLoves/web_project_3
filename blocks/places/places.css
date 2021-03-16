@@ -25,14 +25,26 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
   .places {
     width: 93.7vw;
   }
 }
 
-@media screen and (max-width: 320px) {
+/* @media screen and (max-width: 768px) {
   .places {
-    width: calc(100vw - 4px);
+    width: 93.7vw;
+  }
+} */
+
+@media screen and (max-width: 600px) {
+  .places {
+    width: 100vw;
   }
 }
+
+/* @media screen and (max-width: 320px) {
+  .places {
+    width: 100vw;
+  }
+} */

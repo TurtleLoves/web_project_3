@@ -3,9 +3,16 @@
   height: 44px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 600px) {
   .logo {
     width: 156px;
     height: 36px;
   }
 }
+
+/* @media screen and (max-width: 320px) {
+  .logo {
+    width: 156px;
+    height: 36px;
+  }
+} */
