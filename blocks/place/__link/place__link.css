@@ -1,4 +1,4 @@
-.places__link {
+.place__link {
   display: block;
   width: 484px;
   color: white;
@@ -7,24 +7,24 @@
   margin: 0 0 48px 0;
 }
 
-.places__link:hover {
+.place__link:hover {
   opacity: .8;
 }
 
 @media screen and (max-width: 1280px) { 
-  .places__link {
+  .place__link {
     width: 37.8vw;
   }
 }
 
 @media screen and (max-width: 1024px) { 
-  .places__link {
+  .place__link {
     width: 44.5vw;
   }
 }
 
 @media screen and (max-width: 900px) {
-  .places__link {
+  .place__link {
     width: 45.8vw;
   }
 }
@@ -36,7 +36,7 @@
 } */
 
 @media screen and (max-width: 600px) {
-  .places__link {
+  .place__link {
     width: 90vw;
     margin-bottom: 30px;
     margin-left: 4px;

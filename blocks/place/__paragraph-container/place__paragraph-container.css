@@ -1,9 +1,9 @@
-.places__paragraph-container {
+.place__paragraph-container {
   margin: 0;
 }
 
 @media screen and (max-width: 600px) {
-  .places__paragraph-container {
+  .place__paragraph-container {
     margin: 0 auto 0;
   }
 }

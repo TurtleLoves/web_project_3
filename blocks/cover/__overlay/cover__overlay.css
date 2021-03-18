@@ -1,26 +1,27 @@
-.overlay {
+.cover__overlay {
   width: 1184px;
   min-height: 740px;
   position: absolute;
   background-color: #2A2C2F;
   background-size: cover;
-  opacity: .3;
-  z-index: 1;
+  opacity: .8;
+  z-index: 3;
+  text-decoration: none;
 }
 
-.overlay:hover {
-  opacity: .8;
+.cover__overlay:hover {
+  opacity: .3;
 }
 
 @media screen and (max-width: 1280px) {
-  .overlay {
+  .cover__overlay {
     width: 92.5vw;
     min-height: calc(92.5vw * .625);
     }
 }
 
 @media screen and (max-width: 1024px) {
-  .overlay {
+  .cover__overlay {
     width: 100vw;
     height: calc(100vw * .625);
     }

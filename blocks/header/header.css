@@ -1,4 +1,5 @@
 @import url(./__language-links/header__language-links.css);
+@import url(./__language-links_active/header__language-links_active.css);
 
 .header {
   width: 984px;

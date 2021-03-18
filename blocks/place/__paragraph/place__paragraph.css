@@ -1,28 +1,28 @@
-.places__paragraph {
+.place__paragraph {
   width: 484px;
   font-size: 18px;
   line-height: 29px;
   margin: 0 0 28px 0;
 }
 
-.places__paragraph:last-child {
+.place__paragraph:last-child {
   margin: 0;
 }
 
 @media screen and (max-width: 1280px) {
-  .places__paragraph {
+  .place__paragraph {
     width: 37.8vw;
   }
 }
 
 @media screen and (max-width: 1024px) {
-  .places__paragraph {
+  .place__paragraph {
     width: 44.5vw;
   }
 }
 
 @media screen and (max-width: 900px) {
-  .places__paragraph {
+  .place__paragraph {
     width: 45.8vw;
     font-size: 16px;
     line-height: 26px;
@@ -40,7 +40,7 @@
 } */
 
 @media screen and (max-width: 600px) {
-  .places__paragraph {
+  .place__paragraph {
     width: 90vw;
   }
 }
