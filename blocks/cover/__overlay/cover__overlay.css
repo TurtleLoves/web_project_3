@@ -1,28 +1,45 @@
 .cover__overlay {
-  width: 1184px;
-  min-height: 740px;
-  position: absolute;
-  background-color: #2A2C2F;
+  background-image: url(../../../images/cover-route-66.jpg);
   background-size: cover;
-  opacity: .8;
-  z-index: 3;
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 1184px;
+  min-height: 740px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  position: relative;
   text-decoration: none;
+  z-index: 2;
 }
 
-.cover__overlay:hover {
-  opacity: .3;
+.cover__overlay::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #2a2c2f;
+  opacity: 0.3;
+}
+
+.cover__overlay:hover::before {
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 1280px) {
   .cover__overlay {
-    width: 92.5vw;
-    min-height: calc(92.5vw * .625);
-    }
+    max-width: 92.5vw;
+    min-height: calc(92.5vw * 0.625);
+  }
 }
 
 @media screen and (max-width: 1024px) {
   .cover__overlay {
-    width: 100vw;
-    height: calc(100vw * .625);
-    }
+    max-width: 99.9vw;
+    min-height: calc(100vw * 0.625);
+  }
 }

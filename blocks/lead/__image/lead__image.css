@@ -7,21 +7,21 @@
 @media screen and (max-width: 1280px) {
   .lead__image {
     width: 76.8vw;
-    height: calc(76.8vw * .625);
+    height: calc(76.8vw * 0.625);
   }
 }
 
 @media screen and (max-width: 1024px) {
   .lead__image {
     width: 90.6vw;
-    height: calc(90.6vw * .625);
+    height: calc(90.6vw * 0.625);
   }
 }
 
 @media screen and (max-width: 900px) {
   .lead__image {
-    width: calc(100vw);
-    height: calc(100vw * .625);
+    width: calc(99.9vw);
+    height: calc(99.9vw * 0.625);
   }
 }
 
